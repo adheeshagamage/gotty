@@ -10,7 +10,7 @@ import (
 	"github.com/urfave/cli/v2"
 	"github.com/yudai/hcl"
 
-	"github.com/sorenisanerd/gotty/pkg/homedir"
+	"github.com/adheeshagamage/gotty/pkg/homedir"
 )
 
 func GenerateFlags(options ...interface{}) (flags []cli.Flag, mappings map[string]string, err error) {
